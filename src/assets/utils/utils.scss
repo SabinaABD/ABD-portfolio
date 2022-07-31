@@ -1,0 +1,64 @@
+@mixin flexBox($gap, $direction: row, $align: center, $justify: space-between) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+  gap: $gap;
+}
+
+@mixin stepColorActive($color, $important: !important) {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  top: 120%;
+  left: 0;
+  z-index: -1;
+  background-color: $color $important;
+}
+
+@mixin stepColorUnActive() {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  top: 150%;
+  left: 0;
+  background-color: #eeeeee;
+}
+
+@mixin position($margin-top, $padding, $background, $width: 100%) {
+  margin-top: $margin-top;
+  padding: $padding;
+  background: $background;
+  outline: none;
+  width: $width;
+}
+
+@mixin absolute($top: 0, $left: 0, $right: 0, $bottom: 0) {
+  position: absolute;
+  top: $top;
+  left: $left;
+  right: $right;
+  bottom: $bottom;
+}
+
+@mixin font($fz: 16px, $lh: 24px, $color: #616161) {
+  font-size: $fz;
+  line-height: $lh;
+  color: $color;
+}
+
+@mixin background($url, $display: flex, $align: center, $padding-l: 70px) {
+  background-image: url($url);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: $display;
+  align-items: $align;
+  padding-left: $padding-l;
+}

@@ -1,0 +1,31 @@
+@import "src/assets/utils/utils";
+@import "src/assets/styles/nullstyle";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 60%;
+  margin: 40px auto;
+}
+
+.rules {
+  background-color: var(--color-gray-200);
+  padding: 8px 12px;
+  box-sizing: content-box;
+  margin-top: -36px;
+}
+
+.submit_btn {
+  &:disabled {
+    color: #9e9e9e;
+  }
+  @include font(16px, 16px);
+  display: inline-block;
+  width: 100%;
+  background-color: #fff176;
+  padding: 24px;
+  font-weight: 700;
+  border: none;
+  margin: 0 auto;
+}

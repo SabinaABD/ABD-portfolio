@@ -1,0 +1,100 @@
+@mixin regularFont($font: 14px, $lh: 20px) {
+  font-family: Roboto;
+  font-size: $font;
+  line-height: $lh;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+@mixin boldFont($font: 14px, $lh: 20px) {
+  font-family: Roboto;
+  font-size: $font;
+  line-height: $lh;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+
+@mixin mediumFont($font: 14px, $lh: 20px) {
+  font-family: Roboto;
+  font-size: $font;
+  line-height: $lh;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+.subtitle1 {
+  @include regularFont(24px, 36px);
+}
+
+.subtitle2 {
+  @include regularFont(20px, 28px);
+}
+
+.subtitle3 {
+  @include regularFont(16px, 24px);
+}
+
+.strong1 {
+  @include boldFont(16px, 24px);
+}
+
+.strong2 {
+  @include boldFont();
+}
+
+.strong3_underlined {
+  @include boldFont();
+  text-decoration: underline;
+}
+
+.body1 {
+  @include regularFont(16px, 24px);
+}
+
+.body2 {
+  @include regularFont();
+}
+
+.emphasis {
+  @include mediumFont();
+}
+
+.caption {
+  @include regularFont(12px, 16px);
+}
+
+.menu {
+  @include regularFont(16px, 16px);
+}
+
+.buttonLarge {
+  @include boldFont(16px, 16px);
+}
+
+.buttonMedium {
+  @include boldFont(14px, 14px);
+}
+
+.buttonSmall {
+  @include boldFont(12px, 12px);
+}
+
+.textLink1 {
+  @include regularFont(16px, 24px);
+}
+
+.textLink2 {
+  @include regularFont();
+}
+
+.textLink3 {
+  @include regularFont(12px, 16px);
+}
+
+.tag_emphasised {
+  @include mediumFont(12px 12px);
+}
+
+.tag {
+  @include regularFont(12px, 12px);
+}

@@ -1,0 +1,29 @@
+@import "src/assets/utils/utils";
+@import "src/assets/styles/nullstyle";
+
+.congrats {
+  @include position(0, 0, white);
+  @include flexBox(0, column);
+  &__title {
+    @include font(32px, 48px, #212529);
+    margin-bottom: 16px;
+    font-weight: 700;
+  }
+  &__subtitle {
+    @include font(20px, 28px, #212529);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__icon {
+    margin-bottom: 32px;
+  }
+  &__btn {
+    @include font(16px, 16px, #212529);
+    background-color: #ffd600;
+    display: inline-block;
+    padding: 24px;
+    font-weight: 700;
+    border: none;
+    width: 45%;
+  }
+}

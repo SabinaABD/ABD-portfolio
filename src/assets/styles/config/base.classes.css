@@ -1,0 +1,154 @@
+.subtitle1 {
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.subtitle2 {
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.subtitle3 {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.strong1 {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+
+.strong2 {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+
+.strong3_underlined {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.body1 {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.body2 {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.emphasis {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+.caption {
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.menu {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.buttonLarge {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+
+.buttonMedium {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+
+.buttonSmall {
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+
+.textLink1 {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.textLink2 {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.textLink3 {
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.tag_emphasised {
+  font-family: Roboto;
+  font-size: 12px 12px;
+  line-height: 20px;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+.tag {
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=base.classes.css.map */
